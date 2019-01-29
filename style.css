@@ -1,0 +1,88 @@
+body{
+    background-color: #3e4047;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.game-board
+{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    padding: 15px;
+    padding-right: 0px;
+    padding-bottom: 0;
+}
+
+.game-card
+{
+    background-color: orange ;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+}
+
+.row:last-child
+{
+    margin-left: 0px;
+}
+
+.row{
+    margin-top: 40px;
+}
+
+.invisible
+{
+    display: none;
+}
+
+.vis{
+    visibility: hidden;
+}
+
+.win-message,.lost-message
+{
+    margin-top: 10%;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+img
+{
+    height: 50px;
+    width:50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    height:20px;
+    width: 150px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
